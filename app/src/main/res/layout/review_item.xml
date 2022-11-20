@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView_review"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:layout_margin="10dp"
+    app:cardUseCompatPadding="true"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:id="@+id/LinearLReview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:alpha="0.9"
+        android:gravity="center"
+        tools:background="@color/green"
+        >
+
+        <TextView
+            android:id="@+id/tv_review_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="author"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tv_review_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="descriptiondescriptiondescriptiondescriptiondescriptiondescriptiondescription"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="10dp"
+            android:lineSpacingExtra="5dp"
+
+
+            >
+
+        </TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
